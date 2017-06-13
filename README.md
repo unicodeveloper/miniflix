@@ -1,6 +1,6 @@
 ## Miniflix
 
-This is the code that accompanies the **Miniflix - Mini Netflix** tutorial.
+This is the code that accompanies the **Miniflix** tutorial on **Scotch.io**.
 
 ## Installation
 
