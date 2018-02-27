@@ -13,7 +13,7 @@ class Display extends Component {
     axios.get('http://res.cloudinary.com/unicodeveloper/video/list/miniflix.json')
           .then(res => {
             console.log(res.data.resources);
-            this.setState({ videos: res.data.resources});
+            this.setState({ videos: res.data.resources.splice(0,12)});
     });
   }
 
